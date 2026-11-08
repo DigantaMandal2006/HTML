@@ -1,43 +1,113 @@
-# HTML Learning Notes 📘
+# HTML Notes — Complete Beginner Learning Guide
 
-A beginner-friendly collection of **HTML study notes and hands-on code examples** documenting my progress in web development. The materials focus on understanding HTML concepts, reading real code, and seeing the corresponding output in a browser.
+Welcome to the **HTML Notes** section of my HTML Learning Journey repository!
 
-## 📂 What's Inside
+This folder contains detailed HTML study notes and runnable source code examples designed to help beginners understand HTML from the fundamentals.
 
-| File | Description |
-| --- | --- |
-| [HTML_Complete_Beginner_Notes_With_Outputs.pdf](./HTML_Complete_Beginner_Notes_With_Outputs.pdf) | A **36-page HTML handbook** organized into **32 lessons**, with explanations, sample code, and visual browser outputs to help beginners understand each concept. |
-| [HTML_Beginner_Runnable_Examples.zip](./HTML_Beginner_Runnable_Examples.zip) | Runnable `.html` practice files for the lessons, plus supporting sample assets. Extract the archive to open and experiment with the examples locally. |
+The learning materials include clear explanations, syntax, working code examples, and visual browser outputs.
 
-## 📚 Topics Covered
+## 📚 Learning Resources
 
-- **HTML foundations:** Document structure, tags, elements, attributes, nesting, and text formatting.
-- **Page content:** Headings, paragraphs, lists, links, images, and media elements.
-- **Tables:** Rows, columns, headings, sections, and table organization.
-- **Forms:** Text fields, registration-style inputs, checkboxes, radio buttons, dropdowns, file inputs, and basic validation.
-- **Semantic HTML:** `header`, `nav`, `main`, `section`, `article`, `aside`, and `footer`.
-- **More HTML features:** Metadata and SEO basics, `details`/`summary`, and practical page structures.
-- **Project-style practice:** Examples inspired by movie pages, student results, application forms, and other beginner HTML projects.
+### 1. HTML Notes (PDF)
+
+**File:** `HTML_NOTES.pdf`
+
+A comprehensive beginner-friendly HTML study guide covering essential concepts through detailed explanations and examples.
+
+**Key Features:**
+- 32 structured HTML lessons
+- Detailed theory and syntax
+- Working HTML code examples
+- Visual browser outputs
+- Explanation of important HTML elements and attributes
+- Common mistakes and important notes
+- No practice questions or exercises
+
+### 2. HTML Runnable Examples (ZIP)
+
+**File:** `HTML_Beginner_Runnable_Examples.zip`
+
+A collection of runnable HTML files demonstrating the concepts covered in the study notes.
+
+**Key Features:**
+- 32 HTML lesson files
+- Ready-to-run HTML code
+- Editable source files
+- Browser-compatible examples
+- No backend server required for basic examples
+
+## 📖 Topics Covered
+
+| Category | Concepts |
+|---|---|
+| HTML Fundamentals | Document structure, tags, elements, attributes |
+| Text Formatting | Headings, paragraphs, text formatting, quotations |
+| Lists | Ordered, unordered, description lists |
+| Links & Navigation | Internal links, external links, downloads |
+| Images | Image elements, alternative text, figures, captions |
+| Tables | Table structure, headers, rows, columns, merged cells |
+| Forms | Inputs, labels, buttons, dropdowns, radio buttons, checkboxes |
+| Form Validation | Required fields, restrictions, validation attributes |
+| Semantic HTML | Header, nav, main, section, article, aside, footer |
+| Metadata & SEO | Meta tags, descriptions, canonical links, Open Graph |
+| Multimedia | Audio, video, embedded content |
+| Additional HTML | Details, summary, special characters |
+| Webpage Structure | Building and organizing complete HTML pages |
+
+## 📂 Folder Structure
+
+```text
+Notes/
+├── README.md
+├── HTML_NOTES.pdf
+└── HTML_Beginner_Runnable_Examples.zip
+```
 
 ## 🚀 How to Use
 
-1. **Read the PDF** to learn a topic and review its example and browser output.
-2. **Download and extract the ZIP** on your computer.
-3. Open the extracted `HTML_Beginner_Examples` folder.
-4. Open `index.html` to browse the examples, or open an individual `lesson-XX.html` file in your web browser.
-5. Edit a file in VS Code (or another text editor), save it, and refresh the browser to see what changes.
+**Step 1 — Study the PDF**
 
-> **Note:** These are learning and demonstration files, not a production website. Form examples illustrate HTML controls; they do not automatically store data or process submissions without a backend.
+Read `HTML_NOTES.pdf` to understand HTML concepts, syntax, code examples, and browser outputs.
 
-## 🎯 Learning Goal
+**Step 2 — Download the Source Code**
 
-Build a strong foundation in HTML through a simple cycle: **learn the concept → understand the code → view the output → practice independently**.
+Download and extract `HTML_Beginner_Runnable_Examples.zip`.
 
-## 🔗 Related Projects
+**Step 3 — Open in VS Code**
 
-See the [Projects folder](../Projects) for my other HTML practice projects, including **CineWorld, Proform, Result, Resume, Structural, TechNova, and TechVisionNews**.
+Open the extracted HTML files using Visual Studio Code or another code editor.
+
+**Step 4 — Run in a Browser**
+
+Open any `.html` file in Google Chrome, Microsoft Edge, or another modern browser to view its output.
+
+**Step 5 — Compare and Understand**
+
+Compare the source code with the explanations and rendered outputs provided in the PDF.
+
+## 🛠️ Technologies and Tools
+
+- **HTML5** — Webpage structure
+- **Visual Studio Code** — Source code editing
+- **Web Browser** — Rendering HTML output
+- **Git & GitHub** — Version control and documentation
+
+## 🎯 Learning Objectives
+
+The purpose of these notes is to develop a strong foundation in HTML, understand essential web development concepts, and learn how HTML elements are structured and rendered in a browser.
+
+The resources support self-paced learning, concept revision, and practical understanding through working code examples.
+
+## 👨‍💻 Author
+
+**Diganta Mandal**
+
+B.Tech — Computer Science and Engineering (AI & ML)
+
+**GitHub:** [DigantaMandal2006](https://github.com/DigantaMandal2006)
+
+**Repository:** [HTML Learning Journey](https://github.com/DigantaMandal2006/HTML)
 
 ---
 
-**Author:** [Diganta Mandal](https://github.com/DigantaMandal2006)  
-**Repository:** [HTML](https://github.com/DigantaMandal2006/HTML)
+*Learning HTML from the fundamentals through clear explanations, practical code, and visual examples.*
