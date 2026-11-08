@@ -1,0 +1,643 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body
+    style="
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f4f6f9;
+    "
+  >
+    <!-- Header -->
+    <header
+      style="
+        background-color: #1e293b;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      "
+    >
+      <h1>Proform Portal</h1>
+      <p>
+        <em> Professional Multi-section Application System </em>
+      </p>
+
+      <nav style="margin-top: 15px">
+        <a href="#register" style="color: white; margin: 0 10px">Home</a>
+        <a href="#login" style="color: white; margin: 0 10px">Login</a>
+        <a href="#application" style="color: white; margin: 0 10px">
+          Application Form
+        </a>
+        <a href="#contact" style="color: white; margin: 0 10px">Contact</a>
+      </nav>
+    </header>
+
+    <!-- Main -->
+    <main style="max-width: 1000px; margin: auto; padding: 50px">
+
+      <!-- Registration Section -->
+      <section id="register">
+        <h2>Account Registration</h2>
+
+        <form
+          action="#"
+          method="POST"
+          autocomplete="on"
+          style="
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+          "
+        >
+
+          <!-- Full Name -->
+          <label for="fullName">Full name:</label><br />
+          <input
+            type="text"
+            id="fullName"
+            name="fullName"
+            required
+            minlength="3"
+            maxlength="50"
+            placeholder="Enter your full name"
+          />
+
+          <br /><br />
+
+          <!-- Email -->
+          <label for="email">Email:</label><br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            minlength="10"
+            maxlength="50"
+            placeholder="example@gmail.com"
+          />
+
+          <br /><br />
+
+          <!-- Password -->
+          <label for="password">Password:</label><br />
+          <input
+            type="password"
+            id="password"
+            name="password"
+            required
+            minlength="8"
+            placeholder="Enter at least 8 characters"
+          />
+
+          <br /><br />
+
+          <!-- Confirm Password -->
+          <label for="confirmPassword">Confirm Password:</label><br />
+          <input
+            type="password"
+            id="confirmPassword"
+            name="confirmPassword"
+            required
+            minlength="8"
+            placeholder="********"
+          />
+
+          <br /><br />
+
+          <!-- Date of Birth -->
+          <label for="dob">Date of birth:</label><br />
+          <input
+            type="date"
+            id="dob"
+            name="dob"
+            required
+          />
+
+          <br /><br />
+
+          <!-- Upload Photo -->
+          <label for="profilePhoto">Upload photo</label><br />
+          <input
+            type="file"
+            id="profilePhoto"
+            name="profilePhoto"
+            accept="image/*"
+          />
+
+          <br /><br />
+
+          <!-- Submit Button -->
+          <input
+            type="submit"
+            value="Create Account"
+            style="
+              background-color: #1e293b;
+              color: white;
+              padding: 10px 20px;
+              border: none;
+              border-radius: 5px;
+            "
+          />
+
+          <!-- Reset Button -->
+          <input
+            type="reset"
+            value="Reset"
+            style="
+              background-color: #1e293b;
+              color: white;
+              padding: 10px 20px;
+              border: none;
+              border-radius: 5px;
+            "
+          />
+
+        </form>
+      </section>
+
+      
+<!-- Login Section -->
+<section id="login" style="margin-top: 50px">
+  <h2>Account Login</h2>
+
+  <form
+    action="#"
+    method="POST"
+    autocomplete="on"
+    style="
+      background-color: white;
+      padding: 20px;
+      border-radius: 5px;
+    "
+  >
+
+    <!-- Email -->
+    <label for="loginEmail">Email:</label><br />
+    <input
+      type="email"
+      id="loginEmail"
+      name="loginEmail"
+      required
+      placeholder="Enter your email"
+    />
+
+    <br /><br />
+
+    <!-- Password -->
+    <label for="loginPassword">Password:</label><br />
+    <input
+      type="password"
+      id="loginPassword"
+      name="loginPassword"
+      required
+      placeholder="Enter your password"
+    />
+
+    <br /><br />
+
+    <!-- Remember Me -->
+    <input
+      type="checkbox"
+      id="rememberMe"
+      name="rememberMe"
+    />
+    <label for="rememberMe">Remember Me</label>
+
+    <br /><br />
+
+    <!-- Login Button -->
+    <input
+      type="submit"
+      value="Login"
+      style="
+        background-color: #1e293b;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+      "
+    />
+
+    <!-- Reset Button -->
+    <input
+      type="reset"
+      value="Reset"
+      style="
+        background-color: #1e293b;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+      "
+    />
+
+  </form>
+</section>
+
+
+<!-- Professional Application Section -->
+<section id="application" style="margin-top: 50px">
+  <h2>Professional Application Form</h2>
+
+  <br
+    action="#"
+    method="POST"
+    autocomplete="on"
+    style="
+      background-color: white;
+      padding: 20px;
+      border-radius: 5px;
+    "
+  >
+
+    <!-- Phone Number -->
+    <label for="phone">Phone Number:</label><br />
+    <input
+      type="tel"
+      id="phone"
+      name="phone"
+      required
+      pattern="[0-9]{10}"
+      maxlength="10"
+      placeholder="Enter your phone number"
+    />
+
+    <br /><br />
+
+    <!-- Website / Portfolio -->
+    <label for="portfolio">Website / Portfolio:</label><br />
+    <input
+      type="url"
+      id="portfolio"
+      name="portfolio"
+      placeholder="https://example.com"
+    />
+
+    <br /><br />
+
+    <!-- Years of Experience -->
+    <label for="experience">Years of Experience:</label><br />
+    <input
+      type="number"
+      id="experience"
+      name="experience"
+      min="0"
+      max="50"
+      required
+      placeholder="Enter years of experience"
+    />
+
+    <br /><br />
+
+    <!-- Preferred Interview Time -->
+    <label for="interviewTime">Preferred Interview Time:</label><br />
+    <input
+      type="time"
+      id="interviewTime"
+      name="interviewTime"
+      required
+    />
+
+    <br /><br />
+
+    <!-- Available From -->
+    <label for="availableFrom">Available From:</label><br />
+    <input
+      type="datetime-local"
+      id="availableFrom"
+      name="availableFrom"
+      required
+    />
+
+    <br /><br />
+
+    <!-- Skill Level -->
+    <label for="skillLevel">Skill Level:</label><br />
+    <input
+      type="range"
+      name="skillLevel"
+      min="1"
+        max="10"/>
+        </br><br />
+        <!-- Position Selection -->
+<label for="position">Select Position:</label><br />
+<select id="position" name="position" required>
+  <option value="">Select Position</option>
+  <option value="html">Frontend Developer</option>
+  <option value="css">Backend Developer</option>
+  <option value="javascript">Data science</option>
+</select>
+
+<br /><br />
+
+
+
+  <!-- Frontend Development -->
+  <h4>Frontend Development</h4>
+
+  <input type="checkbox" id="html" name="skills" value="HTML">
+  <label for="html">HTML</label><br>
+
+  <input type="checkbox" id="css" name="skills" value="CSS">
+  <label for="css">CSS</label><br>
+
+  <input type="checkbox" id="javascript" name="skills" value="JavaScript">
+  <label for="javascript">JavaScript</label><br>
+
+  <input type="checkbox" id="react" name="skills" value="React">
+  <label for="react">React.js</label><br>
+
+  <input type="checkbox" id="nextjs" name="skills" value="Next.js">
+  <label for="nextjs">Next.js</label><br>
+
+  <input type="checkbox" id="bootstrap" name="skills" value="Bootstrap">
+  <label for="bootstrap">Bootstrap</label><br>
+
+  <input type="checkbox" id="tailwind" name="skills" value="Tailwind CSS">
+  <label for="tailwind">Tailwind CSS</label><br>
+
+  <!-- Backend Development -->
+  <h4>Backend Development</h4>
+
+  <input type="checkbox" id="nodejs" name="skills" value="Node.js">
+  <label for="nodejs">Node.js</label><br>
+
+  <input type="checkbox" id="express" name="skills" value="Express.js">
+  <label for="express">Express.js</label><br>
+
+  <input type="checkbox" id="python" name="skills" value="Python">
+  <label for="python">Python</label><br>
+
+  <input type="checkbox" id="django" name="skills" value="Django">
+  <label for="django">Django</label><br>
+
+  <input type="checkbox" id="flask" name="skills" value="Flask">
+  <label for="flask">Flask</label><br>
+
+  <input type="checkbox" id="java" name="skills" value="Java">
+  <label for="java">Java</label><br>
+
+  <input type="checkbox" id="spring" name="skills" value="Spring Boot">
+  <label for="spring">Spring Boot</label><br>
+
+  <input type="checkbox" id="mysql" name="skills" value="MySQL">
+  <label for="mysql">MySQL</label><br>
+
+  <input type="checkbox" id="mongodb" name="skills" value="MongoDB">
+  <label for="mongodb">MongoDB</label><br>
+
+  <!-- Data Science -->
+  <h4>Data Science & Machine Learning</h4>
+
+  <input type="checkbox" id="numpy" name="skills" value="NumPy">
+  <label for="numpy">NumPy</label><br>
+
+  <input type="checkbox" id="pandas" name="skills" value="Pandas">
+  <label for="pandas">Pandas</label><br>
+
+  <input type="checkbox" id="matplotlib" name="skills" value="Matplotlib">
+  <label for="matplotlib">Matplotlib</label><br>
+
+  <input type="checkbox" id="seaborn" name="skills" value="Seaborn">
+  <label for="seaborn">Seaborn</label><br>
+
+  <input type="checkbox" id="sklearn" name="skills" value="Scikit-learn">
+  <label for="sklearn">Scikit-learn</label><br>
+
+  <input type="checkbox" id="tensorflow" name="skills" value="TensorFlow">
+  <label for="tensorflow">TensorFlow</label><br>
+
+  <input type="checkbox" id="pytorch" name="skills" value="PyTorch">
+  <label for="pytorch">PyTorch</label><br>
+
+  <input type="checkbox" id="opencv" name="skills" value="OpenCV">
+  <label for="opencv">OpenCV</label><br>
+
+  <input type="checkbox" id="jupyter" name="skills" value="Jupyter Notebook">
+  <label for="jupyter">Jupyter Notebook</label><br>
+
+  <input type="checkbox" id="powerbi" name="skills" value="Power BI">
+  <label for="powerbi">Power BI</label><br>
+
+
+
+<br><br>
+
+
+<!-- Resume Upload -->
+<label for="resume">Upload Resume:</label><br />
+<input
+  type="file"
+  id="resume"
+  name="resume"
+  accept=".pdf,.doc,.docx"
+  required
+/>
+
+<br /><br />
+
+<!-- Cover Letter -->
+<label for="coverLetter">Cover Letter:</label><br />
+<textarea
+  id="coverLetter"
+  name="coverLetter"
+  rows="5"
+  cols="50"
+  placeholder="Write your cover letter here..."
+  required
+></textarea>
+
+<br /><br />
+
+    <!-- Submit Button -->
+    <input
+      type="submit"
+      value="Submit Application"
+      style="
+        background-color: #1e293b;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+      "
+    />
+
+    <!-- Reset Button -->
+    <input
+      type="reset"
+      value="Reset"
+      style="
+        background-color: #1e293b;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+      "
+    />
+
+  </form>
+</section>
+
+
+<!-- Feedback Section -->
+<section id="contact" style="margin-top: 50px">
+  <h2>Feedback Form</h2>
+
+  <form
+    action="#"
+    method="POST"
+    style="
+      background-color: white;
+      padding: 20px;
+      border-radius: 5px;
+    "
+  >
+
+    <!-- Full Name -->
+    <label for="feedbackName">Full Name:</label><br />
+    <input
+      type="text"
+      id="feedbackName"
+      name="feedbackName"
+      required
+      placeholder="Enter your full name"
+    />
+
+    <br /><br />
+
+    <!-- Email -->
+    <label for="feedbackEmail">Email:</label><br />
+    <input
+      type="email"
+      id="feedbackEmail"
+      name="feedbackEmail"
+      required
+      placeholder="Enter your email"
+    />
+
+    <br /><br />
+
+    <!-- Feedback Type -->
+    <label for="feedbackType">Feedback Type:</label><br />
+    <select id="feedbackType" name="feedbackType" required>
+      <option value="">Select Feedback Type</option>
+      <option value="suggestion">Suggestion</option>
+      <option value="complaint">Complaint</option>
+      <option value="appreciation">Appreciation</option>
+      <option value="other">Other</option>
+    </select>
+
+    <br /><br />
+
+    <!-- Rating -->
+    <label>Rate Your Experience:</label><br />
+
+    <input type="radio" id="excellent" name="rating" value="5" required />
+    <label for="excellent">Excellent</label><br />
+
+    <input type="radio" id="good" name="rating" value="4" />
+    <label for="good">Good</label><br />
+
+    <input type="radio" id="average" name="rating" value="3" />
+    <label for="average">Average</label><br />
+
+    <input type="radio" id="poor" name="rating" value="2" />
+    <label for="poor">Poor</label><br />
+
+    <input type="radio" id="veryPoor" name="rating" value="1" />
+    <label for="veryPoor">Very Poor</label>
+
+    <br /><br />
+
+    <!-- Feedback Message -->
+    <label for="feedbackMessage">Your Feedback:</label><br />
+    <textarea
+      id="feedbackMessage"
+      name="feedbackMessage"
+      rows="5"
+      cols="50"
+      required
+      placeholder="Write your feedback here..."
+    ></textarea>
+
+    <br /><br />
+
+    <!-- Recommendation -->
+    <input
+      type="checkbox"
+      id="recommend"
+      name="recommend"
+      value="yes"
+    />
+    <label for="recommend">
+      I would recommend this platform to others.
+    </label>
+
+    <br /><br />
+
+    <!-- Submit Button -->
+    <input
+      type="submit"
+      value="Submit Feedback"
+      style="
+        background-color: #1e293b;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+      "
+    />
+
+    <!-- Reset Button -->
+    <input
+      type="reset"
+      value="Reset"
+      style="
+        background-color: #1e293b;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+      "
+    />
+
+  </form>
+</section>
+
+
+
+    </main>
+
+    
+<!-- Footer -->
+<footer
+  style="
+    background-color: #1e293b;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    margin-top: 50px;
+  "
+>
+  <h3>Proform Portal</h3>
+
+  <p>
+    Professional Multi-section Application System
+  </p>
+
+ 
+
+  <hr style="border: 1px solid #475569; margin: 20px 0" />
+
+  <p>
+    &copy; 2026 Proform Portal. All Rights Reserved.
+  </p>
+</footer>
+
+  </body>
+</html>
