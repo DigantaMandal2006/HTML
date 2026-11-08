@@ -27,7 +27,7 @@ A collection of seven beginner-friendly HTML projects created as part of my web 
 
 Open any project folder and launch its `.html` file in a web browser. You can also click a project name in the table above to view its source code on GitHub.
 
-## Repository
+## Repository 
 
 These projects are part of my [HTML learning repository](https://github.com/DigantaMandal2006/HTML). I'll continue adding practice work as I learn more web development concepts.
 
